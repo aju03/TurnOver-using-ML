@@ -6,7 +6,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.decomposition import PCA
 
 
-df = pd.read_csv('C:/Users/Aju/Desktop/ML_project/HR_data.csv', index_col=None)
+df = pd.read_csv('filelocation/HR_data.csv', index_col=None)
 df = df.rename(columns={'satisfaction_level': 'satisfaction',
                         'last_evaluation': 'evaluation',
                         'number_project': 'projectCount',
